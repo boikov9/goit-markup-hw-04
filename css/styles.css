@@ -553,6 +553,11 @@ margin-bottom: 72px;
     padding-bottom: 163px;
 }
 
+.customer {
+    width: calc((100% - 120px) / 6); 
+    height: 88px;
+}
+
 .customer_link {
     width: 100%;
     height: 100%;
@@ -562,6 +567,7 @@ margin-bottom: 72px;
     align-items: center;
     justify-content: center;
     color: #8e8f99;
+    border: 1px solid #8e8f99
 }
 
 .customer_link:hover,
@@ -577,40 +583,13 @@ margin-bottom: 72px;
     justify-content: center;
 } */
 
-.customer_icon_one {
- width: 41px;
- height: 47px;
+.customer_icon {
+ width: 104;
+ height: 56;
+ fill: currentColor; 
 }
 
-.customer_icon_two {
-    width: 40px;
-    height: 52px;
-   }
-
-.customer_icon_three {
-    width: 40px;
-    height: 41px;
-   }
-
-   .customer_icon_four {
-    width: 84px;
-    height: 41px;
-   }
-
-   .customer_icon_five {
-    width: 63px;
-    height: 45px;
-   }
-
-   .customer_icon_six {
-    width: 94px;
-    height: 44px;
-   }
-
    
-
-
-
 
 .footer {
     background-color: #2e2f42;
@@ -693,7 +672,7 @@ margin-bottom: 72px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #4D5AE5;
+    background-color: #4d5ae5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -706,9 +685,9 @@ margin-bottom: 72px;
 }
 
 .footer_social_icon {
-    width: 24px;
-    height: 24px;
-   fill: #F4F4FD;
+    width: 24;
+    height: 24;
+    fill: #F4F4FD;
 }
 
 
