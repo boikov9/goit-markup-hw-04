@@ -524,7 +524,7 @@ padding-bottom: 120px;
 
 .social_list_link:hover,
 .social_list_link:focus {
-    color: #404bbf;
+    background-color: #404bbf;
 }
 
 .social_list_icon{
@@ -558,7 +558,8 @@ margin-bottom: 72px;
     display: flex;
     justify-content: center;
     gap: 24px;
-    padding-bottom: 163px;
+    /*padding-bottom: 163px;*/
+    padding: 0;
 }
 
 .customer {
