@@ -515,9 +515,14 @@ padding-bottom: 120px;
  align-items: center;
 }
 
-.social_list_link:hover {
-    color: #404bbf;
+.social_list_link:before {
+    content: "";
+    position: absolute;
+    background-color: #404bbf;
+    visibility: hidden;
 }
+
+.social_list_link:hover,
 .social_list_link:focus {
     color: #404bbf;
 }
@@ -794,6 +799,13 @@ border: 1px solid #e7e9fc;
 .card_link {
     display: block;
 
+}
+
+.card_link:before {
+    content: "";
+    position: absolute;
+    background-color: #404bbf;
+    visibility: hidden;
 }
 
 .card_link:hover,
