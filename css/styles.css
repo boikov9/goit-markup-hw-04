@@ -81,18 +81,16 @@ img {
     align-items: center;
 }
 
-.logo {
+/* .logo {
     margin-right: 76px;
-}
+} */
 
 .menu {
     display: flex;
     gap: 40px;
+    padding: 0;
 }
 
-.menu_link {
-  
-}
 
 
 .address {
@@ -134,6 +132,7 @@ img {
     text-transform: uppercase;
     color: #2E2F42;
     display: inline-block; 
+    margin-right: 76px;
 }
 
 
@@ -144,10 +143,11 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    position: relative;
+    /*position: relative;*/
     padding-top: 24px;
     padding-bottom: 24px;
     display: block;
+    
 }
 
 .menu_link:before {
@@ -617,7 +617,7 @@ margin-bottom: 72px;
 }
 
 .customer_icon:focus {
-    fill: red;
+    fill: #404bbf;
   }
 
 
@@ -681,7 +681,7 @@ margin-bottom: 72px;
 }
 
 .footer_social_wrapper {
- padding-left: 120px;
+ 
 }
 
 .footer_social_header {
